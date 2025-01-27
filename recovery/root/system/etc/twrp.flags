@@ -25,7 +25,7 @@
 /persist_image		emmc		/dev/block/platform/bootdevice/by-name/persist			flags=display="Persist";backup=1;flashimg=1
 /cust			ext4		/dev/block/platform/bootdevice/by-name/cust			flags=display="Cust"
 /cust_image		emmc		/dev/block/platform/bootdevice/by-name/cust			flags=display="Cust";backup=1;flashimg=1
-/persistent		emmc		/dev/block/platform/bootdevice/by-name/frp	
+/persistent		emmc		/dev/block/platform/bootdevice/by-name/frp			flags=display="FRP";wipeingui;
 /nvram			emmc		/dev/block/platform/bootdevice/by-name/nvram			flags=backup=1;display="NVRAM"
 /proinfo		emmc		/dev/block/platform/bootdevice/by-name/proinfo		
 /bootloader		emmc		/dev/block/platform/bootdevice/by-name/lk		
