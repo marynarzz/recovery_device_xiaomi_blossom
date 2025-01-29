@@ -16,7 +16,7 @@
 /boot			emmc		/dev/block/platform/bootdevice/by-name/boot			flags=display="Boot"
 /cache			ext4		/dev/block/platform/bootdevice/by-name/cache			flags=display="Cache"
 /storage		f2fs		/data/media/0							flags=display="Internal Storage";backup=1;usermrf;fsflags="bind";removable
-/logo			emmc		/dev/block/platform/bootdevice/by-name/logo			flags=display="Boot Logo";backup=1
+/logo			emmc		/dev/block/platform/bootdevice/by-name/logo			flags=display="Boot Logo";backup=1;flashimg=1
 /protect_f		emmc		/dev/block/platform/bootdevice/by-name/protect1			flags=backup=1
 /protect_s		emmc		/dev/block/platform/bootdevice/by-name/protect2			flags=backup=1
 /nvdata			emmc		/dev/block/platform/bootdevice/by-name/nvdata			flags=backup=1
@@ -25,7 +25,7 @@
 /persist_image		emmc		/dev/block/platform/bootdevice/by-name/persist			flags=display="Persist";backup=1;flashimg=1
 /cust			ext4		/dev/block/platform/bootdevice/by-name/cust			flags=display="Cust"
 /cust_image		emmc		/dev/block/platform/bootdevice/by-name/cust			flags=display="Cust";backup=1;flashimg=1
-/persistent		emmc		/dev/block/platform/bootdevice/by-name/frp	
+/persistent		emmc		/dev/block/platform/bootdevice/by-name/frp			flags=display="FRP";flashimg=1
 /nvram			emmc		/dev/block/platform/bootdevice/by-name/nvram			flags=backup=1;display="NVRAM"
 /proinfo		emmc		/dev/block/platform/bootdevice/by-name/proinfo		
 /bootloader		emmc		/dev/block/platform/bootdevice/by-name/lk		
